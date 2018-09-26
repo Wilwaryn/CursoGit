@@ -1,0 +1,27 @@
+probando comandos de git
+user name: Blanca altran
+user.email: blancafannycastanocaceres.altran.com
+
+git add
+git add .  añade todo
+git checkout -- file
+
+git commit -a -m "mensaje"  con el -a me salto el staging area
+
+Eliminar archivos en el area de modificación. En el stagin area.
+
+git stauts. index.html pediente de ir a tagin area
+git  add index.html
+borro este fichero. rm index.html
+git status. se ha borrado un fichero
+git add index.html. confirmo el borrado añadiendolo al stagin area
+//git rm file . Borra de todo el repo. desaparece. para poderlo volver a recupera debo hacer: 
+git resed HEAD index.html  por ejemplo . vuelvo al estado anterior donde tenia el fichero. 
+Saca del stagin area lo que he borrado y me lo deja en el directorio de trabajo nuevamente.
+
+git checkout -- index.html.  devuelve todo al ultimo estado del staging area
+
+AÑADIR COSAS SOBRE EL ULTIMO COMMIT PORQUE JUSTO ME DI CUENTA AL HACERLO QUE ME OLVIDE DE ALGO:
+git commit -m 'mensagje'
+git add file
+git comit --amend
