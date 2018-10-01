@@ -2,6 +2,7 @@ probando comandos de git
 user name: Blanca altran
 user.email: blancafannycastanocaceres.altran.com
 
+
 git add
 git add .  añade todo
 git checkout -- file
@@ -24,4 +25,6 @@ git checkout -- index.html.  devuelve todo al ultimo estado del staging area
 AÑADIR COSAS SOBRE EL ULTIMO COMMIT PORQUE JUSTO ME DI CUENTA AL HACERLO QUE ME OLVIDE DE ALGO:
 git commit -m 'mensagje'
 git add file
-git comit --amend
+git comit --amendi
+
+cambio
